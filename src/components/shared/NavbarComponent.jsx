@@ -14,7 +14,7 @@ const NavbarComponent = () => {
   console.log(currentPage);
 
   return (
-    <header className="header sticky top-0 bg-transparent flex items-center justify-between px-8 py-02">
+    <header className="header backdrop-blur z-10 sticky top-0 bg-transparent flex items-center justify-between px-8 py-02">
       <h1 className="w-3/12">
         <Link href="/">
           <svg
