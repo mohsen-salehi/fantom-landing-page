@@ -34,6 +34,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-
 #git
 /.idea
+
+/out.rar
+/out.zip
+/public/workbox-*.js
+/public/workbox-*.js.map
+/public/sw.js
+/public/sw.js.map

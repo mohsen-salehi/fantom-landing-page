@@ -1,0 +1,32 @@
+{
+  "theme_color": "#1E69FF",
+  "background_color": "#191B1F",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "FTM",
+  "short_name": "FTM Swap",
+  "description": "Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment.",
+  "icons": [
+    {
+      "src": "/icon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-600x600.png",
+      "sizes": "600x600",
+      "type": "image/png"
+    }
+  ]
+}
