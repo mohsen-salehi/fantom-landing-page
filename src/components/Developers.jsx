@@ -6,7 +6,7 @@ function Developers() {
     <section className="w-full my-20 text-white flex p-2 flex-wrap">
       <div className="w-full flex items-center p-5 text-xl">
         <Image src="/rightArrow.svg" width={20} height={20} alt="right arrow" />
-        <h3>DEVELOPERS</h3>
+        <h1>DEVELOPERS</h1>
       </div>
       <div className="w-full flex p-5 flex-col-reverse lg:flex-row lg:h-[560px]">
         <div className="lg:w-3/5 flex flex-wrap h-full">

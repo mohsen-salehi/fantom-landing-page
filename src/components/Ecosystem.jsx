@@ -11,7 +11,7 @@ function Ecosystem() {
             height={20}
             alt="right arrow"
           />
-          <h3>UNISWAP ECOSYSTEM</h3>
+          <h1>UNISWAP ECOSYSTEM</h1>
         </div>
         <div className="w-full my-2 font-[600] flex flex-wrap text-2xl ">
           A growing network of
