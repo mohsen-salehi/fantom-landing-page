@@ -24,7 +24,7 @@ const FantomHeroSection = () => {
         />
       </div>
 
-      <div className="absolute bottom-14 left-4 transform">
+      <div className="absolute bottom-20 left-4 transform">
         <article className="flex flex-col gap-[19px]">
           <div className="flex flex-row md:flex-row md:gap-x-2">
             <Image
