@@ -1,17 +1,15 @@
-import FantomHeroSection from "@/components/FantomHeroSection";
-import Ecosystem from "@/components/Ecosystem";
+import FTMSwapHeroSection from "@/components/FTMSwapHeroSection";
+import Treasury from "@/components/Treasury";
 import Developers from "@/components/Developers";
-import Governance from "@/components/Governance";
-import Footer from "@/components/shared/Footer";
+import Future from "@/components/Future";
 
 const HomePage = () => {
     return (
         <main>
-            <FantomHeroSection/>
-            <Ecosystem/>
+            <FTMSwapHeroSection/>
+            <Treasury/>
             <Developers/>
-            <Governance/>
-            <Footer/>
+            <Future/>
         </main>
     );
 };
