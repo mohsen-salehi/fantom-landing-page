@@ -24,9 +24,9 @@ const FantomHeroSection = () => {
         />
       </div>
 
-      <div className="absolute bottom-4 left-4 transform">
+      <div className="absolute bottom-14 left-4 transform">
         <article className="flex flex-col gap-[19px]">
-          <div className="flex flex-col md:flex-row md:gap-x-2">
+          <div className="flex flex-row md:flex-row md:gap-x-2">
             <Image
               src="/rightArrow.svg"
               className="w-10 md:w-50"

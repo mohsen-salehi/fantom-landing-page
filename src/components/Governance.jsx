@@ -1,16 +1,14 @@
 import React from 'react';
 import Image from "next/image";
+import TitleContent from "@/components/TitleContent";
 
 function Governance() {
     return (
         <section className="w-full my-20 text-white flex p-2 flex-wrap">
-            <div className="w-full flex items-center p-5 text-xl">
-                <Image src="/rightArrow.svg" width={20} height={20} alt="right arrow" />
-                <h1>PROTOCOL GOVERNANCE</h1>
-            </div>
+            <TitleContent title="PROTOCOL GOVERNANCE"/>
             <div className="w-full flex justify-between flex-wrap p-5 mt-2 ">
-                <div className="w-[55%] h-[454px] bg-center bg-opacity-25 bg-no-repeat bg-cover  bg-[url('/bg-with-effect.svg')]">
-                        <div className="w-full p-8 h-full border bg-stone-800 bg-opacity-25 backdrop-blur-[1px]">
+                <div className="w-[55%] h-[454px] bg-center bg-opacity-25 bg-no-repeat bg-cover  bg-[url('/bg-with-effect.svg')] gradient-border">
+                        <div className="w-full p-8 h-full bg-stone-800 bg-opacity-25 backdrop-blur-[1px]">
                             <div className="w-full p-2 flex flex-wrap">
                                 <h3 className='text-white text-3xl'>
                                     Governed by the community.
