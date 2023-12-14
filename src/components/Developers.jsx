@@ -19,7 +19,7 @@ function Developers() {
                             href="/"
                             className="w-full lg:w-[48%] p-3 flex border items-center justify-between "
                         >
-                            V3 Whitepaper
+                            FTM Swap Whitepaper
                             <Image
                                 src="/arrow-right-up.svg"
                                 alt="arrow"
@@ -48,15 +48,11 @@ function Developers() {
                             <Image src="/image20.svg" alt="icon" width={210} height={202}/>
                         </figure>
                         <div className="w-full text-center lg:text-left">
-                            <div className="w-full text-xl flex flex-wrap py-3">
-                                Apply for funding from the
-                                <br/>
-                                Uniswap Grants Program
+                            <div className="w-full text-xl flex flex-wrap pb-3">
+                                FTMSwap Token (FTMS)
                             </div>
                             <div className="w-full text-gray-500">
-                                Get paid to build the future of finance. <br/>
-                                Uniswap Governance offers grant funding for people building <br/>
-                                apps, tools, and activities on the Uniswap Protocol.
+                                Through the FTMSwap token, the team aims to foster growth within the FTMSwap ecosystem. A 6% transaction fee applies to FTMS tokens, where 3% is allocated to enhance FTMS liquidity, and the remaining 3% contributes to the FTMSwap treasury. These funds will be strategically utilized for campaigns, development initiatives, or impactful endeavors, ensuring a dynamic and sustainable expansion of the FTMSwap platform.
                             </div>
                             <div className="w-full flex flex-wrap my-2">
                                 <Button className='w-full p-2 lg:w-auto' content="learn more"/>
