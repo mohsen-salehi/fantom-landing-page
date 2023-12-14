@@ -23,7 +23,8 @@ function Footer() {
                     <Link passHref={true} href='https://x.com/FTMSwap'><Image src={"/twitter_fill.svg"} alt={"twitter"} width={20} height={20}/></Link>
                 </div>
                 <div className="w-full text-white mt-3">
-                    Designed by <Link passHref={true} href='https://nilldevelopers.com/' className="text-success font-black">NILL</Link>
+                    {/*Designed by <Link passHref={true} href='https://nilldevelopers.com/' className="text-success font-black">NILL</Link>*/}
+                    © 2023 FTM Swap
                 </div>
             </div>
         </footer>
