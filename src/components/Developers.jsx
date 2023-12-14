@@ -42,6 +42,7 @@ function Developers() {
               />
             </Link>
           </div>
+
         </div>
         <div className="lg:w-2/5 lg:ps-3 mb-4 lg:mb-0 h-full">
           <div className="border h-full p-6 flex justify-between content-around flex-col">

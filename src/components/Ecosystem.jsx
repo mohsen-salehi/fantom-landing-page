@@ -25,14 +25,23 @@ function Ecosystem() {
         </p>
       </div>
       <div className="lg:w-1/2 w-full flex items-center justify-center p-5">
-        <div className="lg:w-[648px] w-full bg-[url('/background-1.svg')] h-[319px]">
-          <div className="w-full h-full bg-[url('/iconsImage-1.svg')]">
-            <div className="text-white p-10">
-              <span className="text-4xl font-bold">300+</span>
-              <br />
-              Integrations
+        <div className="lg:w-[648px] w-full bg-[url('/background-1.svg')] relative h-[319px]">
+          <div className="bg-rgba w-full flex justify-center items-center backdrop-blur-2xl h-full absolute">
+            <div className="w-full flex ps-[20%] flex-wrap">
+              <h3 className="text-5xl text-white w-full font-bold">9000.00 $FTM</h3>
+              <div className="flex flex-wrap mt-3 items-center w-full">
+                <span className="text-white "> CHECK HERE </span>
+                <Image
+                    src="/arrow-right-up.svg"
+                    alt="arrow"
+                    className="mx-2"
+                    width={14}
+                    height={14}
+                />
+              </div>
             </div>
           </div>
+          <div className="w-full h-full bg-[url('/iconsImage-1.svg')]"></div>
         </div>
       </div>
     </section>
