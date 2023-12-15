@@ -29,7 +29,7 @@ function Developers() {
                             href="/"
                             className="w-full lg:w-[48%] p-3 flex border items-center justify-between "
                         >
-                            V3 Whitepaper
+                            FTM Swap Whitepaper
                             <Image
                                 src="/arrow-right-up.svg"
                                 alt="arrow"
@@ -58,13 +58,12 @@ function Developers() {
                             <Image src="/image20.svg" alt="icon" width={210} height={202}/>
                         </figure>
                         <div className="w-full text-center lg:text-left">
-                            <h2 className="w-full py-3 text-white font-inter text-xl font-medium leading-[133.125%]">
-                                Apply for funding from the Uniswap Grants Program
-                            </h2>
+                            <h1 className="w-full py-3 text-white font-inter text-xl font-medium leading-[133.125%]">
+                                FTMSwap Token (FTMS)
+                            </h1>
+
                             <div className="w-full text-gray-400 font-inter text-base font-normal leading-[157.33%]">
-                                Get paid to build the future of finance.
-                                Uniswap Governance offers grant funding for people building
-                                apps, tools, and activities on the Uniswap Protocol.
+                                Through the FTMSwap token, the team aims to foster growth within the FTMSwap ecosystem. A 6% transaction fee applies to FTMS tokens, where 3% is allocated to enhance FTMS liquidity, and the remaining 3% contributes to the FTMSwap treasury. These funds will be strategically utilized for campaigns, development initiatives, or impactful endeavors, ensuring a dynamic and sustainable expansion of the FTMSwap platform.
                             </div>
                             <div className="w-full flex flex-wrap my-2 mt-4">
                                 <Button className='w-full p-2 lg:w-auto' content="learn more"/>

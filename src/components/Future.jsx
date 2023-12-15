@@ -9,25 +9,35 @@ function Governance() {
             <TitleContent title="PROTOCOL GOVERNANCE"/>
             <div className="w-full flex justify-between flex-wrap p-5 mt-2 lg:gap-0 gap-[20px]">
                 <div
-                    className="lg:w-[55%] w-full h-[454px] bg-center bg-opacity-25 bg-no-repeat bg-cover  bg-[url('/bg-with-effect.svg')] gradient-border">
+                    className="lg:w-[55%] w-full h-auto bg-center bg-opacity-25 bg-no-repeat bg-cover  bg-[url('/bg-with-effect.svg')] gradient-border">
                     <div className="w-full p-8 h-full bg-stone-800 bg-opacity-25 backdrop-blur-[1px]">
                         <div className="w-full p-2 flex flex-wrap">
                             <h3 className='text-white text-3xl'>
-                                Governed by the community.
+                                What can we expect in the future?
                             </h3>
                             <div className="w-full my-5 text-xl text-gray-400">
-                                The Uniswap Protocol is managed by a global community of <br/>
-                                UNI token holders and delegates.
+                                The FTMSwap team is capable of developing anything in Web3. However, we value your input
+                                in improving our services. Your satisfaction is our top priority, and we are committed
+                                to providing the best experience for you.
+                                <br/>
+                                At FTMSwap, we don't just have investors or influencers, we have friends. We don't
+                                consider you as mere users; you are part of our supportive family. Rest assured, we will
+                                always have your back.
+                                <br/>
+                                We also want to express our gratitude for your support during Gitcoin v1.
                             </div>
 
 
-                            <Button className='w-52 p-3' content="learn more"/>
+                            <div className="flex flex-row flex-wrap gap-3">
+                                <Button className='w-52 p-3' content="learn more"/>
+                                <Button className='w-52 p-3' content="Submit feedback"/>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="lg:w-[44%] w-full flex flex-wrap content-between items-center lg:gap-0 gap-[20px]">
                     <div className="border p-3 py-5 w-full flex flex-wrap">
-                        <h3 className="text-2xl me-1">Governance Forum</h3>
+                        <h3 className="text-2xl me-1">FTM Wallet</h3>
                         <Image
                             src="/arrow-right-up.svg"
                             alt="arrow"
@@ -36,12 +46,11 @@ function Governance() {
                             height={18}
                         />
                         <div className="w-full text-gray-300 mt-2">
-                            Participate by proposing upgrades and discussing the future of the <br/> protocol with the
-                            Uniswap community.
+                            Having a unique FTM wallet for Android and iOS is crucial in the Fantom Sonic Network ecosystem. 
                         </div>
                     </div>
                     <div className="border p-3 py-5 w-full flex flex-wrap">
-                        <h3 className="text-2xl me-1">Sybil</h3>
+                        <h3 className="text-2xl me-1">launchpad</h3>
                         <Image
                             src="/arrow-right-up.svg"
                             alt="arrow"
@@ -50,12 +59,11 @@ function Governance() {
                             height={18}
                         />
                         <div className="w-full text-gray-300 mt-2">
-                            Vote on offchain proposals with the Snapshot interface. <br/> Votes are weighted by the
-                            number of UNI delegates.
+                            The Launchpad feature holds immense potential to enhance liquidity on FTMSwap and attract a wider user base in the future. 
                         </div>
                     </div>
                     <div className="border p-3 py-5 w-full flex flex-wrap">
-                        <h3 className="text-2xl me-1">Governance Portal</h3>
+                        <h3 className="text-2xl me-1">Airdrop</h3>
                         <Image
                             src="/arrow-right-up.svg"
                             alt="arrow"
@@ -64,7 +72,7 @@ function Governance() {
                             height={18}
                         />
                         <div className="w-full text-gray-300 mt-2">
-                            Vote on official Uniswap governance proposals and <br/> view past proposals.
+                            We are diligently preparing for an upcoming airdrop exclusive to the FTM Swap community in the near future.
                         </div>
                     </div>
                 </div>
