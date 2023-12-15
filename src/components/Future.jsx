@@ -9,7 +9,7 @@ function Governance() {
             <TitleContent title="PROTOCOL GOVERNANCE"/>
             <div className="w-full flex justify-between flex-wrap p-5 mt-2 lg:gap-0 gap-[20px]">
                 <div
-                    className="lg:w-[55%] w-full h-auto bg-center bg-opacity-25 bg-no-repeat bg-cover  bg-[url('/bg-with-effect.svg')] gradient-border">
+                    className="lg:w-[55%] w-full h-auto bg-current gradient-border">
                     <div className="w-full p-8 h-full bg-stone-800 bg-opacity-25 backdrop-blur-[1px]">
                         <div className="w-full p-2 flex flex-wrap">
                             <h3 className='text-white text-3xl'>

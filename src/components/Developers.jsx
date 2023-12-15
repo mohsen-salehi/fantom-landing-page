@@ -10,7 +10,7 @@ function Developers() {
             <div className="w-full flex p-5 flex-col-reverse lg:flex-row lg:h-[560px]">
                 <div className="lg:w-3/5 flex flex-wrap h-full">
                     <div
-                        className="w-full h-[450px] relative gradient-border mb-4 lg:mb-0 bg-[url('/background-developer.svg')] bg-center bg-opacity-25 bg-no-repeat bg-cover"
+                        className="w-full h-[507px] relative gradient-border mb-4 lg:mb-0 bg-[url('/background-developer.svg')] bg-center bg-opacity-25 bg-no-repeat bg-cover"
                     >
 
                         <article className="absolute bottom-0 flex flex-col gap-[21px] pl-10 px-10 pb-7">
@@ -53,9 +53,9 @@ function Developers() {
                     </div>
                 </div>
                 <div className="lg:w-2/5 lg:ps-3 mb-4 lg:mb-0 h-auto">
-                    <div className="border h-full p-6 flex justify-between content-around flex-col">
+                    <div className="border h-auto p-6 flex justify-between content-around flex-col">
                         <figure className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-                            <Image src="/image20.svg" alt="icon" width={210} height={202}/>
+                            <Image className="grayscale contrast-200" src="/image20.svg" alt="icon" width={210} height={202}/>
                         </figure>
                         <div className="w-full text-center lg:text-left">
                             <h1 className="w-full py-3 text-white font-inter text-xl font-medium leading-[133.125%]">
