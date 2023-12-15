@@ -80,7 +80,7 @@ const Navbar = () => {
                       className="w-10 md:w-50"
                       width={50}
                       height={50}
-                      alt="FTM Swao logo"
+                      alt="FTM Swap logo"
                   />
               </Link>
             </h1>

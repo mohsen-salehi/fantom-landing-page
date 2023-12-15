@@ -6,14 +6,14 @@ const withPWA = require("next-pwa")({
   skipWaiting: true,
   runtimeCaching,
   buildExcludes: [/manifest.json$/],
-  disable: false,
+  disable: false
 });
 
 const nextConfig = {
   reactStrictMode: false,
   // trailingSlash: true,
   // output: "export",
-  // distDir: "out",
+  // distDir: "out"
 };
 
 module.exports = withPWA(nextConfig);
