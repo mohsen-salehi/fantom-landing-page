@@ -29,7 +29,7 @@ function Developers() {
                             href="/"
                             className="w-full lg:w-[48%] p-3 flex border items-center justify-between "
                         >
-                            V3 Whitepaper
+                            FTM Swap Whitepaper
                             <Image
                                 src="/arrow-right-up.svg"
                                 alt="arrow"
@@ -61,6 +61,9 @@ function Developers() {
                             <h2 className="w-full py-3 text-white font-inter text-xl font-medium leading-[133.125%]">
                                 Apply for funding from the Uniswap Grants Program
                             </h2>
+                            <div className="w-full pb-3 text-white font-inter text-xl font-medium leading-[133.125%]">
+                                FTMSwap Token (FTMS)
+                            </div>
                             <div className="w-full text-gray-400 font-inter text-base font-normal leading-[157.33%]">
                                 Get paid to build the future of finance.
                                 Uniswap Governance offers grant funding for people building

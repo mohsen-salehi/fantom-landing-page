@@ -1,6 +1,7 @@
 import TitleContent from "@/components/TitleContent";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 function Treasury() {
     return (
@@ -17,23 +18,23 @@ function Treasury() {
 
             </div>
             <div className="lg:w-1/2 w-full flex items-center justify-center p-5">
-                <div className="lg:w-[648px] w-full bg-[url('/background-1.svg')] bg-no-repeat h-[319px]">
-                    <div className="w-full h-full bg-[url('/iconsImage-1.svg')] bg-no-repeat">
-                        <div className="text-white p-10">
-                            <span className="text-4xl font-bold">30000.000 FTM</span>
-                            <br/>
-                            <p className="flex">
-                                CHECK HERE
+                <div className="lg:w-[648px] w-full bg-[url('/background-1.svg')] relative h-[319px] border">
+                    <div className="bg-rgba w-full flex justify-center items-center backdrop-blur-2xl h-full absolute">
+                        <div className="w-full flex ps-[20%] flex-wrap">
+                            <h3 className="text-5xl text-white w-full font-bold">9000.00 $FTM</h3>
+                            <div className="flex flex-wrap mt-3 items-center w-full">
+                                <Link href='/' className="text-white font-inter text-base font-normal leading-157"> CHECK HERE </Link>
                                 <Image
                                     src="/arrow-right-up.svg"
                                     alt="arrow"
-                                    className=""
-                                    width={18}
-                                    height={18}
+                                    className="mx-2"
+                                    width={14}
+                                    height={14}
                                 />
-                            </p>
+                            </div>
                         </div>
                     </div>
+                    <div className="w-full h-full bg-[url('/iconsImage-1.svg')]"></div>
                 </div>
             </div>
         </section>

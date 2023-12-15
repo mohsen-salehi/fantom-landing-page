@@ -34,17 +34,17 @@ const FTMSwapHeroSection = () => {
               height={50}
               alt="right arrow"
             />
-            <p className="text-white font-inter text-2xl md:text-5xl font-normal leading-normal">
+            <h1 className="text-white font-inter text-2xl md:text-5xl font-normal leading-normal">
               FTM SWAP V3&nbsp;
               {/* <span className="text-white font-inter text-2xl md:text-5xl font-extrabold leading-normal">
                 PROTOCOL
               </span> */}
-            </p>
+            </h1>
           </div>
           <div>
-            <p className="text-white font-roboto-condensed text-base md:text-xl font-normal leading-normal max-w-2xl">
-                Introducing FTMSwap - the decentralized exchange on Fantom Sonic Network. Trade assets in less than 1 second with lightning-fast speed and ultra-low fees. Unleash the power of decentralized trading today!
-            </p>
+            <h3 className="text-white font-roboto-condensed text-base md:text-xl font-normal leading-normal max-w-2xl">
+                Introducing FTMSwap - the decentralized exchange on Fantom Sonic Network.
+            </h3>
           </div>
         </article>
       </div>
