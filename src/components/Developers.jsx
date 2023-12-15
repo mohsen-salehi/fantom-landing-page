@@ -8,7 +8,7 @@ function Developers() {
         <section className="w-full my-20 text-white flex p-2 flex-wrap">
             <TitleContent title="developers"/>
             <div className="w-full flex p-5 flex-col-reverse lg:flex-row lg:h-[560px]">
-                <div className="lg:w-3/5 flex flex-wrap h-full">
+                <div className="lg:w-3/5 flex flex-wrap h-full ">
                     <div
                         className="w-full h-[507px] relative gradient-border mb-4 lg:mb-0 bg-[url('/background-developer.svg')] bg-center bg-opacity-25 bg-no-repeat bg-cover"
                     >
@@ -18,7 +18,7 @@ function Developers() {
                                 DeFi developers.</h3>
                             <span className="text-gray-400 font-inter text-base font-normal leading-[157.33%]">Build Defi apps and tools on the largest crypto project on <br/> Ethereum. Get started with quick start guides, protocol <br/> documentation, a Javascript SDK, and fully open source code.</span>
 
-                            <div className="w-full flex flex-wrap my-2 mt-4">
+                            <div className="w-full flex flex-wrap my-2 mt-4 backdrop-blur-[1px]">
                                 <Button className='w-full p-2 lg:w-auto' content="documentation"/>
                             </div>
                         </article>

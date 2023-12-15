@@ -57,7 +57,8 @@ body {
     left: calc(-1 * var(--borderWidth));
     height: calc(100% + var(--borderWidth) * 2);
     width: calc(100% + var(--borderWidth) * 2);
-    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    /*background: linear-gradient(60deg, #5E5156, #C9C1B8, #767375, #454344, #201C1F);*/
+    background: linear-gradient(60deg, #BD9B73, #8F5B57, #3C3D5C, #565E54, #968768);
     border-radius: calc(2 * var(--borderWidth));
     z-index: -1;
     animation: animatedgradient 3s ease alternate infinite;
