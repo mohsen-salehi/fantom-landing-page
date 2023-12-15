@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const FantomHeroSection = () => {
+const FTMSwapHeroSection = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center">
       {/* Centered Fantom Text with Wave Effect */}
@@ -42,10 +42,8 @@ const FantomHeroSection = () => {
             </p>
           </div>
           <div>
-            <p className="text-white font-roboto-condensed text-base md:text-xl font-normal leading-normal">
-              Swap, earn, and build on the leading decentralized crypto trading
-              <br />
-              protocol.
+            <p className="text-white font-roboto-condensed text-base md:text-xl font-normal leading-normal max-w-2xl">
+                Introducing FTMSwap - the decentralized exchange on Fantom Sonic Network. Trade assets in less than 1 second with lightning-fast speed and ultra-low fees. Unleash the power of decentralized trading today!
             </p>
           </div>
         </article>
@@ -54,4 +52,4 @@ const FantomHeroSection = () => {
   );
 };
 
-export default FantomHeroSection;
+export default FTMSwapHeroSection;
