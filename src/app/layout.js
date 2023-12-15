@@ -10,11 +10,6 @@ export const metadata = {
     title: "FTM Swap | 🏆 Community driven dapp on Fantom",
     description:
         "Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment.",
-
-    icons: {
-        icon: ["/icon-600x600.png"],
-        apple: ["/icon-600x600.png"],
-    },
 };
 
 export default function RootLayout({children}) {
@@ -22,11 +17,23 @@ export default function RootLayout({children}) {
         <html lang="en">
         <Head>
             <meta charSet="UTF-8"/>
-            <meta
-                name="viewport"
-                content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"
-            />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+            <meta name="description" content="Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment."/>
+            <meta name="keywords" content="Fantom, FTM, Fantom Swap, FTM Swap, DAPP, ftm swap exchange, swap on ftm, fantom price"/>
+            <meta name="author" content="NILL Devs"/>
+
+            <meta property="og:title" content="FTM Swap | 🏆 Community driven dapp on Fantom"/>
+            <meta property="og:description" content="Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment."/>
+            <meta property="og:image" content="/ftm_banner.png"/>
+            <meta property="og:url" content="https://www.ftmswap.com"/>
+
+            <meta name="twitter:card" content="Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment."/>
+            <meta name="twitter:title" content="FTM Swap | 🏆 Community driven dapp on Fantom"/>
+            <meta name="twitter:description" content="Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment."/>
+            <meta name="twitter:image" content="/ftm_banner.png"/>
+
+
             <script
                 async
                 src="https://www.googletagmanager.com/gtag/js?id=G-213XCQXWZR"
@@ -37,45 +44,10 @@ export default function RootLayout({children}) {
           {dataLayer.push(arguments)}
           gtag('js', new Date()); gtag('config', 'G-213XCQXWZR');`}
             </script>
-
-            <meta
-                name="description"
-                content="Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment."
-            />
-            <meta
-                name="keywords"
-                content="Fantom, FTM, Fantom Swap, FTM Swap, DAPP, ftm swap exchange, swap on ftm, fantom price"
-            />
-
-            <meta property="og:locale" content="en_US"/>
-            <meta property="og:type" content="website"/>
-            <meta property="og:title" content="Home"/>
-            <meta
-                property="og:description"
-                content="Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment."
-            />
-            <meta property="og:url" content="https://ftmswap.best"/>
-            <meta property="og:site_name" content="FTM Swap"/>
             <meta
                 property="article:modified_time"
                 content="2023-01-23T19:00:05+00:00"
             />
-            <meta property="og:image" content="/twitter-fantom.png"/>
-            <meta property="og:image:width" content="124"/>
-            <meta property="og:image:height" content="32"/>
-            <meta property="og:image:type" content="image/png"/>
-            <meta
-                name="twitter:card"
-                content="Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment."
-            />
-            <meta
-                name="twitter:description"
-                content="Fantom Swap is the first 🥇 community driven DAPP in fantom.foundation which make you eligible to earn passive income with/without investment."
-            />
-            <meta name="twitter:image" content="/twitter-fantom.png"/>
-            <meta name="twitter:site" content="@FTMSwap"/>
-            <meta name="twitter:label1" content="Est. reading time"/>
-            <meta name="twitter:data1" content="2 minute"/>
             <meta name="y_key" content="1e39c508e0d87750"/>
             <meta name="pageKey" content="guest-home"/>
             <meta itemProp="name" content="jQTouch"/>
@@ -107,14 +79,14 @@ export default function RootLayout({children}) {
             <meta name="ResourceLoaderDynamicStyles" content=""/>
             <meta name="medium" content="blog"/>
             <meta name="copyright" content="FTM SWAP"/>
-            <meta name="language" content="ES"/>
+            <meta name="language" content="EN"/>
             <meta name="robots" content="index,follow"/>
             <meta name="revised" content="Sunday, July 18th, 2023, 5:15 pm"/>
             <meta name="abstract" content="FTM Swap"/>
             <meta name="topic" content="FTM Swap"/>
             <meta
                 name="summary"
-                content="A web developer group is a team of professionals who specialize in creating, designing, and maintaining websites. This group includes web developers, web designers, front-end developers, back-end developers, and others. Web developers write the code that makes websites function, using programming languages such as HTML, CSS, and JavaScript. Web designers focus on the visual aspects of websites, such as layout and color schemes. Front-end developers create and maintain the parts of a website that users interact with directly, while back-end developers handle tasks such as data storage and security. The group works together to create websites that are visually appealing, user-friendly, and efficient. They use a variety of tools and technologies to ensure that websites are optimized for speed, accessibility, and search engine rankings."
+                content="FTM Swap | 🏆 Community driven dapp on Fantom"
             />
             <meta
                 name="syndication-source"
