@@ -7,33 +7,36 @@ function Treasury() {
         <section className="w-full flex my-20 p-2 flex-wrap">
             <div className="lg:w-1/2 text-white flex content-center flex-wrap">
                 <TitleContent title="FTM SWAP TREASURY"/>
-                <div className="p-5 pt-2">
+                <div className="p-5">
+                    <h3 className="w-full my-2 flex flex-wrap text-white font-inter text-2xl font-medium ">
+                        A growing network of DeFi Apps.
+                    </h3>
                     <p className="text-white font-inter text-base font-normal leading-[157.33%]">
-                        FTMSwap's team has emerged as a resilient survivor in the bear market. Now, you can witness the decentralization of our swap treasury. We utilize a portion of our FTM coin holdings to cover swap costs and deliver the best services to our valued users.
-                        <br/>
-                        We express our heartfelt gratitude for standing with us during the bear market. Together, we forge ahead, committed to providing an exceptional trading experience and building a robust decentralized ecosystem.
+                        Developers, traders, and liquidity providers participate
+                        together in a financial marketplace that is open and accessible
+                        to all.
                     </p>
                 </div>
 
             </div>
             <div className="lg:w-1/2 w-full flex items-center justify-center p-5">
-                <div className="lg:w-[648px] w-full bg-[url('/background-1.svg')] bg-no-repeat h-[319px]">
-                    <div className="w-full h-full bg-[url('/iconsImage-1.svg')] bg-no-repeat">
-                        <div className="text-white p-10">
-                            <span className="text-4xl font-bold">30000.000 FTM</span>
-                            <br/>
-                            <p className="flex">
-                                CHECK HERE
+                <div className="lg:w-[648px] w-full bg-[url('/background-1.svg')] relative h-[319px]">
+                    <div className="bg-rgba w-full flex justify-center items-center backdrop-blur h-full absolute">
+                        <div className="w-full ps-[20%] mt-4 flex justify-center content-center flex-wrap">
+                            <h3 className="text-5xl text-white w-full font-bold">9000.00 $FTM</h3>
+                            <div className="flex flex-wrap w-full">
+                                <span className="text-white"> CHECK HERE </span>
                                 <Image
                                     src="/arrow-right-up.svg"
                                     alt="arrow"
-                                    className=""
-                                    width={18}
-                                    height={18}
+                                    className="mx-2"
+                                    width={14}
+                                    height={14}
                                 />
-                            </p>
+                            </div>
                         </div>
                     </div>
+                    <div className="w-full h-full bg-[url('/iconsImage-1.svg')]"></div>
                 </div>
             </div>
         </section>

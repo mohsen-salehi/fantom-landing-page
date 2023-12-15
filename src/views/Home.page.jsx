@@ -8,8 +8,7 @@ const HomePage = () => {
     return (
         <main>
             <FTMSwapHeroSection/>
-            {/*<Treasury/>*/}
-            <Ecosystem/>
+            <Treasury/>
             <Developers/>
             <Future/>
         </main>
