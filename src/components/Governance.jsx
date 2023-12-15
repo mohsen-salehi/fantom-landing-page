@@ -7,9 +7,9 @@ function Governance() {
     return (
         <section className="w-full my-20 text-white flex p-2 flex-wrap">
             <TitleContent title="PROTOCOL GOVERNANCE"/>
-            <div className="w-full flex justify-between flex-wrap p-5 mt-2 ">
+            <div className="w-full flex justify-between flex-wrap p-5 mt-2 lg:gap-0 gap-[20px]">
                 <div
-                    className="w-[55%] h-[454px] bg-center bg-opacity-25 bg-no-repeat bg-cover  bg-[url('/bg-with-effect.svg')] gradient-border">
+                    className="lg:w-[55%] w-full h-[454px] bg-center bg-opacity-25 bg-no-repeat bg-cover  bg-[url('/bg-with-effect.svg')] gradient-border">
                     <div className="w-full p-8 h-full bg-stone-800 bg-opacity-25 backdrop-blur-[1px]">
                         <div className="w-full p-2 flex flex-wrap">
                             <h3 className='text-white text-3xl'>
@@ -25,7 +25,7 @@ function Governance() {
                         </div>
                     </div>
                 </div>
-                <div className="w-[44%] flex flex-wrap content-between items-center">
+                <div className="lg:w-[44%] w-full flex flex-wrap content-between items-center lg:gap-0 gap-[20px]">
                     <div className="border p-3 py-5 w-full flex flex-wrap">
                         <h3 className="text-2xl me-1">Governance Forum</h3>
                         <Image

@@ -6,15 +6,12 @@ function Ecosystem() {
             <div className="lg:w-1/2 text-white flex content-center flex-wrap">
                 <TitleContent title="FTM SWAP TREASURY"/>
                 <div className="p-5">
-                    <div className="w-full my-2 flex flex-wrap text-white font-inter text-2xl font-medium ">
-
-                        A growing network of
-                        <br/>
-                        DeFi Apps.
-                    </div>
+                    <h3 className="w-full my-2 flex flex-wrap text-white font-inter text-2xl font-medium ">
+                        A growing network of DeFi Apps.
+                    </h3>
                     <p className="text-white font-inter text-base font-normal leading-[157.33%]">
-                        Developers, traders, and liquidity providers <br/> participate
-                        together in a financial marketplace <br/> that is open and accessible
+                        Developers, traders, and liquidity providers participate
+                        together in a financial marketplace that is open and accessible
                         to all.
                     </p>
                 </div>

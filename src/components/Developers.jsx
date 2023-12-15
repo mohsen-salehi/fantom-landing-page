@@ -10,9 +10,19 @@ function Developers() {
             <div className="w-full flex p-5 flex-col-reverse lg:flex-row lg:h-[560px]">
                 <div className="lg:w-3/5 flex flex-wrap h-full">
                     <div
-                        className="w-full h-[450px] border bg-cover bg-center mb-4 lg:mb-0"
-                        style={{backgroundImage: "url('/background-developer.svg')"}}
-                    ></div>
+                        className="w-full h-[450px] relative gradient-border mb-4 lg:mb-0 bg-[url('/background-developer.svg')] bg-center bg-opacity-25 bg-no-repeat bg-cover"
+                    >
+
+                        <article className="absolute bottom-0 flex flex-col gap-[21px] pl-10 px-10 pb-7">
+                            <h3 className="text-white font-inter text-lg font-medium leading-[133.125%]">Superpowers for
+                                DeFi developers.</h3>
+                            <span className="text-gray-400 font-inter text-base font-normal leading-[157.33%]">Build Defi apps and tools on the largest crypto project on <br/> Ethereum. Get started with quick start guides, protocol <br/> documentation, a Javascript SDK, and fully open source code.</span>
+
+                            <div className="w-full flex flex-wrap my-2 mt-4">
+                                <Button className='w-full p-2 lg:w-auto' content="documentation"/>
+                            </div>
+                        </article>
+                    </div>
 
                     <div className="w-full justify-between items-end pt-2 flex flex-wrap mb-4 lg:mb-0 gap-3 lg:gap-0">
                         <Link
@@ -48,17 +58,15 @@ function Developers() {
                             <Image src="/image20.svg" alt="icon" width={210} height={202}/>
                         </figure>
                         <div className="w-full text-center lg:text-left">
-                            <div className="w-full text-xl flex flex-wrap py-3">
-                                Apply for funding from the
-                                <br/>
-                                Uniswap Grants Program
-                            </div>
-                            <div className="w-full text-gray-500">
-                                Get paid to build the future of finance. <br/>
-                                Uniswap Governance offers grant funding for people building <br/>
+                            <h2 className="w-full py-3 text-white font-inter text-xl font-medium leading-[133.125%]">
+                                Apply for funding from the Uniswap Grants Program
+                            </h2>
+                            <div className="w-full text-gray-400 font-inter text-base font-normal leading-[157.33%]">
+                                Get paid to build the future of finance.
+                                Uniswap Governance offers grant funding for people building
                                 apps, tools, and activities on the Uniswap Protocol.
                             </div>
-                            <div className="w-full flex flex-wrap my-2">
+                            <div className="w-full flex flex-wrap my-2 mt-4">
                                 <Button className='w-full p-2 lg:w-auto' content="learn more"/>
                             </div>
                         </div>
