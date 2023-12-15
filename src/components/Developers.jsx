@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import TitleContent from "@/components/TitleContent";
+import Button from "@/components/button/Button";
 
 function Developers() {
     return (
