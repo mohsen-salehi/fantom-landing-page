@@ -14,12 +14,13 @@ function Developers() {
                     >
 
                         <article className="absolute bottom-0 flex flex-col gap-[21px] pl-10 px-10 pb-7">
-                            <h3 className="text-white font-inter text-lg font-medium leading-[133.125%]">Superpowers for
-                                DeFi developers.</h3>
-                            <span className="text-gray-400 font-inter text-base font-normal leading-[157.33%]">Build Defi apps and tools on the largest crypto project on <br/> Ethereum. Get started with quick start guides, protocol <br/> documentation, a Javascript SDK, and fully open source code.</span>
+                            <h3 className="text-white font-inter text-lg font-medium leading-[133.125%]">Support for the FTM ecosystem.</h3>
+                            <span className="text-gray-400 font-inter text-base font-normal leading-[157.33%]">
+                                We will provide support to the teams that choose to list their tokens with us. The FTM Swap team is friendlier than you might think.
+                            </span>
 
                             <div className="w-full flex flex-wrap my-2 mt-4 backdrop-blur-[1px]">
-                                <Button className='w-full p-2 lg:w-auto' content="documentation"/>
+                                <Button className='w-full p-2 lg:w-auto' content="Contact us"/>
                             </div>
                         </article>
                     </div>
@@ -29,7 +30,7 @@ function Developers() {
                             href="/"
                             className="w-full lg:w-[48%] p-3 flex border items-center justify-between "
                         >
-                            FTM Swap Whitepaper
+                            White paper
                             <Image
                                 src="/arrow-right-up.svg"
                                 alt="arrow"
