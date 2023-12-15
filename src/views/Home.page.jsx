@@ -2,7 +2,6 @@ import FTMSwapHeroSection from "@/components/FTMSwapHeroSection";
 import Treasury from "@/components/Treasury";
 import Developers from "@/components/Developers";
 import Future from "@/components/Future";
-import Ecosystem from "@/components/Ecosystem";
 
 const HomePage = () => {
     return (
